@@ -15,17 +15,12 @@
 @import "vendor/*";
 
 body {
-background: rgb(240, 240, 240);
 color: rgb (20, 20, 20);
 font-family: 'Montserrat', sans-serif;
 margin: 0;
 }
 
-h1 {
-font-family: 'Helvetica';
-font-size: 50px;
-color: white;
-}
+
 
 h2 {
   font-family: Arial ;
@@ -42,11 +37,14 @@ a:hover {
 
 /* Custom design */
 #banner {
-  background-image: url(/images/ryokanbanner.jpg);
+  background-image: url(/images/kmbannerfinal.png);
+  width: 100%;
+  height: auto;
   background-size: cover;
-  padding: 150px 0;
+  padding: 250px 0;
   text-align: center;
   color: white;
+
 }
 
 #banner p {
@@ -75,14 +73,11 @@ a:hover {
   color: white;
 }
 
-btn-primary {
-  font-family: Raleway-SemiBold;
-  font-size: 15px;
-  color: rgba(255, 133, 191, 0.75);
-  letter-spacing: 1px;
-  line-height: 15px;
-  border: 2px solid rgba(58, 133, 191, 0.75);
-  border-radius: 80px;
-  background: transparent;
-  transition: all 0.3s ease 0s;
+.fa {
+  margin-left: 20px;
+}
+
+.idcard {
+
+  -webkit-text-stroke: 1px black;
 }
